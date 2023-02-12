@@ -26,4 +26,7 @@ func main() {
 		"Jakarta",
 	)
 	fmt.Printf("Variable Example with parameter is : %s, %d, %s\n", name, age, address)
+
+	// Call the function "PrintsAllVariables" from the package "variables"
+	variables.PrintsAllVariables()
 }
