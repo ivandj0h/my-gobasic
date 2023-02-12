@@ -5,9 +5,8 @@
 This is a collection of Codes and examples for learning Go.
 
 `This Project will be updated regularly.`
-```
-This is a very basic Codes so it's for beginners.
-```
+
+Note: This is a very basic Codes so it's for beginners.
 
 ## Folder Structure
 Here is the `Temporary` folder structure of the project :
@@ -43,6 +42,6 @@ command:
 go build main.go
 ```
 
-## Author
-![ivandjoh](https://linkedin.com/in/ivandjoh)
-![delvin](https://instagram.com/delvswijaya)
+## Contributing
+- [ivandjoh](https://linkedin.com/in/ivandjoh)
+- [delvin](https://instagram.com/delvswijaya)
