@@ -2,7 +2,25 @@
 
 ## Description
 
-This is a collection of notes and examples for learning Go.
+This is a collection of Codes and examples for learning Go.
+
+`This Project will be updated regularly.`
+```
+This is a very basic Codes so it's for beginners.
+```
+
+## Folder Structure
+Here is the `Temporary` folder structure of the project :
+```azure
+├───my-basics
+│   ├───arrays
+│       ├───array-example.go
+│   ├───variables
+│       ├───variable-example.go
+│   ├───go.mod
+│   ├───main.go
+│   ├───README.md
+```
 
 ## Installation
 
@@ -24,3 +42,7 @@ command:
 ```bash
 go build main.go
 ```
+
+## Author
+![ivandjoh](https://linkedin.com/in/ivandjoh)
+![delvin](https://instagram.com/delvswijaya)
