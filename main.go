@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/ivandi1980/my-basics/arrays"
+	"github.com/ivandi1980/my-basics/datatypes"
 	"github.com/ivandi1980/my-basics/variables"
 )
 
@@ -46,4 +47,15 @@ func main() {
 
 	// Call the function "getTheLengthOfArray" from the package "arrays"
 	arrays.GetTheLengthOfArray()
+
+	/**
+	 * Datatype
+	 * below is the example of the Datatype
+	 */
+
+	// Call the function "GetStringDataType" from the package "datatypes"
+	datatypes.GetStringDataType()
+
+	// Call the function "GetIntDataType" from the package "datatypes"
+	datatypes.GetIntDataType()
 }
