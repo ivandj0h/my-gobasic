@@ -14,6 +14,8 @@ Here is the `Temporary` folder structure of the project :
 ├───my-basics
 │   ├───arrays
 │       ├───array-example.go
+│   ├───datatypes
+│       ├───datatypes-example.go
 │   ├───variables
 │       ├───variable-example.go
 │   ├───go.mod
