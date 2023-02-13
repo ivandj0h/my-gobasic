@@ -2,10 +2,16 @@ package main
 
 import (
 	"fmt"
+	"github.com/ivandi1980/my-basics/arrays"
 	"github.com/ivandi1980/my-basics/variables"
 )
 
 func main() {
+
+	/**
+	 * Variable
+	 * below is the example of the variable
+	 */
 
 	// Print the string "Hello, World!" to the console
 	fmt.Println("Hello, World!")
@@ -29,4 +35,15 @@ func main() {
 
 	// Call the function "PrintsAllVariables" from the package "variables"
 	variables.PrintsAllVariables()
+
+	/**
+	 * Array
+	 * below is the example of the Array
+	 */
+
+	// Call the function "ExampleOfArray" from the package "arrays"
+	arrays.ExampleArray()
+
+	// Call the function "getTheLengthOfArray" from the package "arrays"
+	arrays.GetTheLengthOfArray()
 }
