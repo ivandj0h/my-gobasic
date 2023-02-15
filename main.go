@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/ivandi1980/my-basics/arrays"
 	"github.com/ivandi1980/my-basics/datatypes"
+	"github.com/ivandi1980/my-basics/functions"
 	"github.com/ivandi1980/my-basics/variables"
 )
 
@@ -58,4 +59,21 @@ func main() {
 
 	// Call the function "GetIntDataType" from the package "datatypes"
 	datatypes.GetIntDataType()
+
+	// Call the function "Add" from the package "functions"
+	functions.Add(1, 2)
+
+	// Call the function "AddWithReturnValue" from the package "functions"
+	sum := functions.AddWithReturnValue(1, 2)
+	fmt.Println("The sum of the two numbers is :", sum)
+
+	// Call the function "AddWithMultipleReturnValues" from the package "functions"
+	sum, sub := functions.AddWithMultipleReturnValues(1, 2)
+	_ = sum
+	fmt.Println("The sum of the two numbers is :", sum)
+	fmt.Println("The sub of the two numbers is :", sub)
+
+	// Call the function "Swap" from the package "functions"
+	a, b := functions.Swap("hello", "world")
+	fmt.Println(a, b)
 }
